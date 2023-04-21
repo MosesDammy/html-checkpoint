@@ -1,0 +1,142 @@
+/* *{
+    box-sizing: border-box;
+} */
+
+
+.navbarr {
+  display: flex;
+  justify-content: space-around;
+}
+.navbarr img {
+  width: 290px;
+  height: 34px;
+}
+
+.infos {
+  display: flex;
+  padding: 0px;
+}
+.infos li {
+  list-style: none;
+  padding: 10px;
+}
+.infos li a {
+  text-decoration: none;
+  color: rgb(171, 171, 171);
+  padding: 20px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.infos li #a1 {
+  color: rgb(12, 198, 152);
+}
+#health-logo {
+  width: 40px;
+  margin-left: 10px;
+  margin-top: 10px;
+  vertical-align: middle;
+}
+
+#f-div {
+  margin: 45px 0;
+}
+
+#banz {
+  text-align: center;
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 33px;
+  color: rgb(0, 179, 164);
+}
+
+#sec-div {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  text-align: start;
+  gap: 1.3rem;
+  padding: 0 250px;
+}
+.lead-page {
+  text-align: center;
+  padding: 10px;
+  margin-top: 1px;
+  padding-top: 1rem;
+  font-size: 33px;
+}
+.card-section {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  gap: 20px;
+}
+.card {
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+  color: white;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 1.2;
+  font-family: "Work Sans", Arial, sans-serif;
+}
+#sec-div {
+  color: #747474;
+}
+
+.fa-solid {
+  font-size: 20px;
+  margin-top: 1px;
+}
+#card-01 {
+  background-color: #00ccb1;
+  border-radius: 1rem;
+  line-height: 1.2;
+}
+
+#card-02 {
+  background-color: #3d83df;
+  border-radius: 1rem;
+  width: 200px;
+}
+
+.box3{
+  background-color: #1b2734;
+  border-radius: 1rem;
+  width: 200px;
+}
+
+.drop-down {
+  border: none;
+  text-decoration: underline;
+}
+
+
+.w-logo{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.words{
+font-size:23px ; 
+font-family: "Work Sans", Arial, sans-serif;
+font-weight: 300;
+line-height:33px;
+color: #00b39b;
+padding-top: 0px;
+
+}
+
+.logos{
+    margin: 30px;
+    padding: 40px;
+}
+.logos a{
+    text-decoration: none;
+    color: grey;
+    font-size: 1.3rem;
+}
+
